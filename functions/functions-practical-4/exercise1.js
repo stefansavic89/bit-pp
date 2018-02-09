@@ -18,4 +18,4 @@ function checkForNumber(a, e) {
     return false;
 }
 
-console.log(checkForNumber([5, -4.2, 18, 7], 3));
+console.log(checkForNumber([5, -4.2, 18, 7], 7));
