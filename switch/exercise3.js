@@ -1,3 +1,5 @@
+"use strict"
+
 var day = 12;
 
 switch (day) {
