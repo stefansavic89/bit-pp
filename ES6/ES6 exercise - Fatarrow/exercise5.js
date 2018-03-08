@@ -2,18 +2,15 @@
 // 	Input: ['compiler', 'transpiler', 'babel.js', 'JS standard', 'linter']
 // 	Output: ['babel.js, 'JS standard']
 
-
-
 'use strict'
 
-function jsJS(a) {
+let jsJS = (a) => {
 
-    a = a.map(function (item) {
-
+    a = a.map((item) => {
         return item.toLowerCase();
     });
 
-    let checkForJS = function (x) {
+    let checkForJS = (x) => {
         return x.includes('js')
     }
 
